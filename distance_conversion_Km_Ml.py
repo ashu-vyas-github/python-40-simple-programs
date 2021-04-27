@@ -14,17 +14,18 @@ def main():
     option = int(input("Select the distance conversion 1 or 2: "))
 
     if option == 1:
-        ratio = 0.632137 # 1km = 0.632 miles
+        ratio = 0.62137119 # 1km = 0.632 miles
         kilometres = float(input("Enter distance in Kilometres: "))
         miles = kilometres * ratio
-        print("Distance in Miles: ", str(miles), " miles")
+        print("Distance in Miles: ", str(round(miles,4)), " miles")
     elif option == 2:
-        ratio = 1.609344 # 1ml = 1.61 kms
+        ratio = 1.60934401 # 1ml = 1.61 kms
         miles = float(input("Enter distance in Miles: "))
         kilometres = miles * ratio
-        print("Distance in Kilometres: ", str(kilometres), " kms")
+        print("Distance in Kilometres: ", str(round(kilometres,4)), " kms")
     else:
-        print("\nPlease select correct option: 1 or 2\n")
+        print("\nNot a valid option!")
+        print("Please select correct option: 1 or 2\n")
         main()
 
     return 0
