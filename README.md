@@ -1,2 +1,3 @@
-# Python 40 Simple Programspython_40_simple_programs
+# Python 40 Simple Programs
+
 Basic, stand-alone Python programs for practice.
