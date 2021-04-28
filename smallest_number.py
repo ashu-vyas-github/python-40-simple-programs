@@ -21,7 +21,6 @@ def main():
 
     """
 
-
     print("Program to find the smallest number among given numbers\n")
     total_elements = int(input("How many numbers you wish to enter? "))
     print("Enter the numbers: ")
