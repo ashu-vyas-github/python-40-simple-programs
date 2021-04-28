@@ -6,7 +6,18 @@
 A simple hello world program
 
 """
+
+
 def main():
+    """
+    The main function to execute upon call.
+
+    Returns
+    -------
+    int
+        returns integer 0 for safe executions.
+
+    """
 
     print('Hello World')
 

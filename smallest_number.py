@@ -11,6 +11,16 @@ import numpy
 
 
 def main():
+    """
+    The main function to execute upon call.
+
+    Returns
+    -------
+    int
+        returns integer 0 for safe executions.
+
+    """
+
 
     print("Program to find the smallest number among given numbers\n")
     total_elements = int(input("How many numbers you wish to enter? "))
