@@ -22,10 +22,10 @@ def main():
 
     print("Program to find the character from an input ASCII value.")
 
-    ascii_in_numeric = int(input("Enter ASCII value to find character: "))
+    ascii_val = int(input("Enter ASCII value to find character: "))
 
-    print("\nASCII {num} in character is \"{asci}\""
-          .format(num=ascii_in_numeric, asci=chr(ascii_in_numeric)))
+    print("\nASCII {asci} in character is \"{char}\""
+          .format(asci=ascii_val, char=chr(ascii_val)))
 
     return 0
 
