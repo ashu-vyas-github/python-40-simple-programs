@@ -18,6 +18,9 @@ def main():
         returns integer 0 for safe executions.
 
     """
+
+    print("Program to accept inputs from keyboard from user and display the same.")
+
     # Accepting string input
     string = input("Enter any string: ")
     print("The input string:", string)
