@@ -2,17 +2,14 @@
 """
 @author: ashutosh
 
-One line summary of the file
-
-Explanation here. With 72 character liit.
+A program to check prime number.
 
 """
 
 
 def prime_number(num):
 
-    # prime number is always greater than 1
-    if num > 1:
+    if num > 1:  # prime number is always greater than 1
         for i in range(2, num):
             if (num % i) == 0:
                 print(num, "is not a prime number")
@@ -20,9 +17,7 @@ def prime_number(num):
         else:
             print(num, "is a prime number")
 
-    # If the entered number is less than or equal to 1
-    # then it is not prime number
-    else:
+    else:  # Number <= 1 is not prime number
         print(num, "is not a prime number")
 
     return 0
