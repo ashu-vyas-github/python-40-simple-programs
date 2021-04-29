@@ -24,7 +24,8 @@ def main():
 
     ascii_in_numeric = int(input("Enter ASCII value to find character: "))
 
-    print(chr(ascii_in_numeric))
+    print("\nASCII {num} in character is \"{asci}\""
+          .format(num=ascii_in_numeric, asci=chr(ascii_in_numeric)))
 
     return 0
 
